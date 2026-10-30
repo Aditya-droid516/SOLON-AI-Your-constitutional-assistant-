@@ -1,0 +1,34 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.egg-info/
+
+# Data (large / regenerable)
+data/COI.json
+data/corpus.jsonl
+data/*.jsonl
+rag/chroma_db/
+training/constitution_qa.jsonl
+training/constitution_lora/
+training/outputs/
+
+# Models
+models/
+*.gguf
+*.bin
+*.safetensors
+
+# Secrets
+.env
+.env.local
+
+# Node / Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# OS / IDE
+.DS_Store
+.vscode/settings.json
+.idea/
